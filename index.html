@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roshni Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- typed js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- particle js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" />
+  </head>
+
+  <body>
+    <!-- navbar section -->
+    <nav class="navbar">
+      <div class="logo">My Journey</div>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- introduction section -->
+    <section class="intro" id="intro">
+      <div id="particles-js"></div>
+      <div class="intro-content">
+        <div class="intro-image">
+          <img src="image/me.jpg" alt="" srcset="" />
+        </div>
+        <div class="intro-text">
+          <h1><span id="typed"></span></h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about-section" id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I’m Roshni, passionate about data, automation, and building
+        simple digital solutions. I enjoy creating dashboards, exploring web
+        development, and experimenting with workflow automation using n8n and AI
+        tools. Currently learning: ADDS and Basic Linux.
+      </p>
+    </section>
+
+    <!-- education section -->
+    <section class="timeline-section" id="education">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Bachlor's in Computer Application</h3>
+          <span>2023-Present</span>
+          <p>
+            CIMAGE GROUP OF INSTITUTION, Patna<br />
+            CGPA:- 8
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Advance Diploma in Computer Application</h3>
+          <span>2022-2023</span>
+          <p>
+            VPS Institute, Begusarai <br />
+            Percentage:- 86%
+          </p>
+        </div>
+        <div class="timeline-item">
+          <h3>12th(PCM)- BSEB</h3>
+          <span>2022</span>
+          <p>
+            Ganesh Dath College, Begusarai <br />
+            Percentage:- 85%
+          </p>
+        </div>
+        <div class="timeline-item">
+          <h3>10th-CBSE</h3>
+          <span>2020</span>
+          <p>
+            St. Paul Sr. Seconsdary School,Bahdarpur, Begusarai <br />
+            Percentage:- 81%
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills section -->
+    <section class="skills-section" id="skills">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li>POWER BI</li>
+        <li>MICROSOFT SQL SERVER</li>
+        <li>EXCEL</li>
+        <li>GIT</li>
+        <li>GITHUB</li>
+        <li>GITHUB ACTION</li>
+        <li>VS CODE</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JAVASCRIPT (Basic)</li>
+        <li>ADDS</li>
+        <li>N8N</li>
+        <li>LINUX (Basic)</li>
+      </ul>
+    </section>
+
+    <!-- project section -->
+    <!-- project section -->
+    <section class="projects-section" id="projects">
+      <h2>Projects</h2>
+      <p class="projects-intro">A selection of my projects — click a card to view details.</p>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-media" style="background-image:url('image/spotify.png')"></div>
+          <h3>Spotify-Music-Analysis Dashboard</h3>
+          <p class="project-desc">Interactive  dashboard with KPIs and filters.</p>
+          <a class="btn_project" href="https://github.com/roshnikumari-11/Spotify-Music-Analysis" target="_blank" rel="noopener">View Project</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media" style="background-image:url('image/foodsales.png')"></div>
+          <h3>World-Food-Production-Report</h3>
+          <p class="project-desc">Interactive dashboard with KPIs and filters.</p>
+          <a class="btn_project" href="https://github.com/roshnikumari-11/World-Food-Production-Report" target="_blank" rel="noopener">View Project</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media" style="background-image:url('image/pizzasales.png')"></div>
+          <h3>SQL Analysis</h3>
+          <p class="project-desc">SQL queries and analysis for pizza sales data.</p>
+          <a class="btn_project" href="https://github.com/roshnikumari-11/pizza-sales-sql-analysis" target="_blank" rel="noopener">View Project</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media" style="background-image:url('image/blinkit.png')"></div>
+          <h3>-Blinkit SQL Project Customer Sales Analysis</h3>
+          <p class="project-desc">Built a mock Blinkit database (customers, products, orders, order_items) and answered key sales questions with SQL.</p>
+          <a class="btn_project" href="https://github.com/roshnikumari-11/-Blinkit-SQL-Project-Customer-Sales-Analysis" target="_blank" rel="noopener">View Project</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media" style="background-image:url('image/img1.png')"></div>
+          <h3>Todo List Application | PHP, MySQL</h3>
+          <p class="project-desc">Built a PHP-based todo application with MySQL database integration</p>
+          <a class="btn_project" href="https://github.com/roshnikumari-11/TO_DO_LIST/tree/main" target="_blank" rel="noopener">View Project</a>
+        </article>
+
+         <article class="project-card">
+          <div class="project-media" style="background-image:url('image/workflow.png')"></div>
+          <h3>Website Chatbot using n8n</h3>
+          <p class="project-desc">An AI-powered website chatbot built using n8n, designed to automatically respond to user queries by fetching information from Google Sheets, maintaining conversation context using Simple Memory, and collecting user contact details when answers are not available.</p>
+          <a class="btn_project" href="https://github.com/roshnikumari-11/Website_Chatbot_using_n8" target="_blank" rel="noopener">View Project</a>
+        </article>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact-section" id="contact">
+      <h2>Contact Me</h2>
+      <p class="contact-note">Have a question or want to work together? Choose how to reach me.</p>
+      <div class="contact-actions">
+        <a href="mailto:abc@gmail.com?subject=Inquiry%20from%20Portfolio" class="btn_mail" id="mail-btn">Open Mail App</a>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+      <p>
+        &copy;2025 All Rights Reserved | Design & Develop by
+        <span class="brand">Roshni</span>
+      </p>
+      <div class="social">
+        <a href="">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script>
+      var typed = new Typed("#typed", {
+        strings: [
+          "I am Roshni.",
+          "I enjoy web development and DevOps basics.",
+          "I create clean dashboards and automation workflows.",
+          "Currently learning ADDS and basic Linux.",
+        ],
+        typeSpeed: 50,
+        backSpeed: 25,
+        loop: true,
+      });
+
+      // ParticlesJS config
+      particlesJS("particles-js", {
+        particles: {
+          number: { value: 450 },
+          color: {
+            value: ["#4ea8de", "#ff4c60", "#3deabf", "#c084fc", "#facc15"],
+          },
+          shape: { type: "circle" },
+          opacity: {
+            value: 0.8,
+            random: true,
+            anim: {
+              enable: true,
+              speed: 10,
+              opacity_min: 0.3,
+              sync: false,
+            },
+          },
+          size: { value: 3 },
+          line_linked: {
+            enable: true,
+            distance: 130,
+            color: "#ffffff",
+            opacity: 0.4,
+            width: 1,
+          },
+          move: {
+            enable: true,
+            speed: 2,
+          },
+        },
+        interactivity: {
+          detect_on: "canvas",
+          events: {
+            onhover: {
+              enable: true,
+              mode: "grab", // cool interactive effect
+            },
+            onclick: {
+              enable: true,
+              mode: "repulse",
+            },
+            resize: true,
+          },
+          modes: {
+            grab: {
+              distance: 200,
+              line_linked: {
+                opacity: 0.4,
+              },
+            },
+            repulse: {
+              distance: 100,
+              duration: 0.4,
+            },
+          },
+        },
+        retina_detect: true,
+      });
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
